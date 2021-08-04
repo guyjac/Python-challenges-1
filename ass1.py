@@ -151,6 +151,10 @@ def ex5() :
     n = 0
     p = 0
 
+    #Loop over every letter in a word. 
+    #For each letter, loop over the vowels (this can be improved if we just check if its in the vowels, but for now I will leave it as a loop).
+    #If a vowel is found, increment its count. 
+    #Reset which vowel we are on, when we iterate onto the next letter. (thus we can loop through all the vowels agian for the next letter)
     for letter in vowelList:
             while n <= 4:
                 if letter == charList[n]:
